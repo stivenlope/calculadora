@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+
+<script>
+       let c="";
+
+while(c!="salir"){
+let a = parseInt(prompt("Ingrese Numero 1"));
+let b = parseInt(prompt("Ingrese Numero 2"));
+c = prompt("Que operacion desea");
+alert(realizarOperacion(a, b, c));
+}
+
+
+
+
+function realizarOperacion(num1, num2, operacion) {
+    if (operacion == "+") {
+        let suma = num1 + num2;
+        return suma;
+    }
+
+    else if (operacion == "-") {
+        let resta = num1 - num2;
+        return resta;
+    }
+
+    if(operacion=="*"){
+        letmultiplicacion=num1*num2;
+        return multiplicacion;
+    }
+
+    if(operacion=="/"){
+        let division=num1/num2;
+        return division;
+    }
+    
+    else {
+        document.write("Seleccion mala");
+    }
+
+}
+
+
+/*
+    function sumita(a, b) {
+        return a+b;
+    }
+
+    function restita(a, b) {
+        return a-b;
+    }
+
+    function multi(a, b) {
+        return a*b;
+    }
+
+    let suma = sumita(numero1,numero2);
+    let resta = restita(numero1,numero2);
+    let multiplica = multi(numero1,numero2)
+    let division = numero1 / numero2;
+
+    document.write(suma, "<br>");
+    document.write(resta, "<br>");
+    document.write(multiplica, "<br>");
+    document.write(division, "<br>");
+*/
+
+</script>
+
+
+<body>
+
+</body>
+
+</html>
+</script>
+
+ 
+        
+        
+    
+
+
+</body>
+</html>
